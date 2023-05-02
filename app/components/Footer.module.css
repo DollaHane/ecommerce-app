@@ -1,0 +1,39 @@
+.boxOne {
+    bottom: 0;
+    margin-top: 70px;
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+.boxTwo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: clamp(20px, 30px, 40px); 
+}
+
+.boxThree {
+    width: clamp(20%, 30%, 40%)
+}
+
+.boxFour {
+    width: clamp(20%, 25%, 30%)
+}
+
+.typoOne {
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.typoTwo {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.div {
+    text-align: left;
+}

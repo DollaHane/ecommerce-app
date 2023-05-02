@@ -1,0 +1,44 @@
+.boxOne {
+    position:absolute;
+    bottom:10%;
+    left:0;
+    width: 100%;
+    padding: 0 5% ;
+}
+
+.boxTwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxThree {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: 'pointer';
+    box-shadow: rgba(149, 157, 165, 0.315) 0px 8px 24px;
+}
+
+.button {
+    width: 100px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.131);
+    color: #fff9cc76;
+    
+}
+
+.button:hover{
+    background-color: #fff9ccea;
+    color: rgb(0, 0, 0);
+}
+
+.button:active{
+    background-color: #fff9cc8a;
+}

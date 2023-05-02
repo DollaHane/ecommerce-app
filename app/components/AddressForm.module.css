@@ -1,0 +1,6 @@
+.boxOne {
+    display: grid;
+    gap:15px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    
+}

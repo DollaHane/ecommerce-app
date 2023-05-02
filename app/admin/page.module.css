@@ -1,0 +1,48 @@
+.boxOne {
+    width: 100%;
+    height: auto;
+    margin: 100px 0 0 0;
+    padding: 15px
+}
+
+.boxTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.boxThree {
+    width: 100%;
+}
+
+.typoOne {
+    margin: 10px 0 50px 0;
+}
+
+.form {
+    width: 100%;
+}
+
+.input {
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    margin: 30px auto 10px auto;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.524);
+    color: #fff9cc;
+}
+
+.button:hover{
+    border: 1px solid grey;
+    background-color: #fff9ccea;
+    color: rgb(0, 0, 0);
+}
+
+.button:active{
+    background-color: #fff9ccc6;
+}

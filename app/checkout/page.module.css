@@ -1,0 +1,14 @@
+.boxOne {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.boxTwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.stepperOne {
+    margin: 20px 0;
+}
